@@ -1,5 +1,7 @@
 # CSS_Sample4-scss
 
+
+
 ## main.scss
 
 ```scss
@@ -31,5 +33,34 @@
     @include size(50px);
     @include scaleOnHover;
   }
+}
+```
+
+## package.json
+
+Pay attention to the dependencies, we use "sass" preprocessor.
+
+```json
+{
+  "name": "js-academy-pw-15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "sass": "^1.63.6",
+    "typescript": "^5.1.6"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
 }
 ```
