@@ -9,6 +9,33 @@ npm run start
 
 Navigate to the URL: http://localhost:1234
 
+## index.html
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SCSS playground</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="./src/styles/main.scss"></style>
+		<script src="./src/scripts/index.ts"></script>
+	</head>
+
+	<body>
+		<div id="app"></div>
+		     <div class="parent">
+                          <div class="child">
+		          </div>
+		     </div>
+	  </br>
+		<div class="parent--round">
+			<div class="child--round"></div>
+		</div>
+	</body>
+</html>
+```
+
+
 ## main.scss
 
 ```scss
