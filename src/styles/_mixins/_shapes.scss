@@ -1,0 +1,24 @@
+@mixin size($width, $height: false) {
+	width: $width;	
+  @if $height {
+		height: $height;
+	} @else {
+		height: $width;
+	}
+}
+
+@mixin center($horizintally, $vertically: false) {
+  display: flex;
+	justify-content: $horizintally;
+  @if $vertically {
+		align-items: $vertically;
+	} @else {
+		align-items: $horizintally;
+  }
+}
+
+@mixin scaleOnHover {
+  &:not([disabled]):hover {
+    transform: scale(1.2);	
+	}
+}

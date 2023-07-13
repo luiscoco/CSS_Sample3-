@@ -1,0 +1,40 @@
+.parent, .child {
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+.parent {
+  background-color: red;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent--round {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.child {
+  background-color: blue;
+  width: 50px;
+  height: 25px;
+}
+.child:not([disabled]):hover {
+  transform: scale(1.2);
+}
+.child--round {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+.child--round:not([disabled]):hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=/main.847ea5f6.css.map */
